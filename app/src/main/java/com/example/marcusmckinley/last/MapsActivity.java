@@ -33,6 +33,8 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         mapFragment.getMapAsync(this);
         locationManager = (LocationManager)getSystemService(Context.LOCATION_SERVICE);
         getlocation();
+
+        
     }
 
     void getlocation() {
