@@ -11,7 +11,8 @@ import android.widget.Button;
 
 public class MainActivity extends Activity {
 
-    private Button button; //
+    private Button button;
+    private Button button2;//
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,6 +29,16 @@ public class MainActivity extends Activity {
             }
         });
 
+        button2 = (Button) findViewById(R.id.button2);
+
+        button2.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,
+                        ContactActivity.class);
+                startActivity(intent);
+            }
+        });
 
     }
 
