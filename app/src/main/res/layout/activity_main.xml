@@ -24,7 +24,7 @@
         android:layout_marginTop="36dp"
         android:textSize="36sp"
         android:textStyle="bold"
-        android:layout_below="@id/imageView2"
+        android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"/>
 
     <TextView
@@ -42,7 +42,7 @@
     <Button
         android:id="@+id/button"
         android:layout_width="120dp"
-        android:layout_height="50dp"
+        android:layout_height="80dp"
         android:layout_marginLeft="60dp"
         android:layout_marginBottom="60dp"
         android:text="Map"
@@ -52,7 +52,7 @@
     <Button
         android:id="@+id/button2"
         android:layout_width="120dp"
-        android:layout_height="50dp"
+        android:layout_height="80dp"
         android:layout_marginRight="60dp"
         android:layout_marginBottom="60dp"
         android:text="Contact"
